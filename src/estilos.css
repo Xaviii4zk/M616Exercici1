@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 650px;
+    margin: 200px auto 0;
+}
+
+.Resultados {
+    width: 646px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    border-radius: 5px 5px 0 0;
+}
+
+.Resultados h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.Resultados_equipos {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.Partido {
+    width: 323px;
+    height: 140px;
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    border-left: 1px solid rgb(220, 220, 220);
+    border-right: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.Equipos {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Resultado_equipo {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.Ganador {
+    color: rgb(3, 3, 3);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Perdedor {
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.Fechas {
+    color: rgb(158, 158, 158);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Resultado_numero {
+    margin-left: auto;
+}
+
+.Escudo {
+    width: 40px;
+    height: 40px;
+}
+
+
+.Resultado_foto {
+    width: 150px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 3px;
+}
+
+.Resultado_foto img {
+    width: 74px;
+    height: 48px;
+}
+.Informacion_final {
+    width: 646px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 0 0 5px 5px;
+    color: rgb(110, 110, 110);
+    font-size: 12px;
+    font-weight: 400;
+}
