@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 1400px;
+    padding: 30px;
+}
+
+header {
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.fotoheader {
+    display: flex;
+    gap: 40px;
+}
+
+.fotoheader img {
+    width: 100px;
+    height: 100px;
+}
+
+.infoheader {
+    color: black;
+    font-size: 21px;
+    font-weight:900
+}
+
+.infoheader h3 {
+    color: rgb(46, 40, 40);
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.seccioneshader {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.infosecciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.seccionestudios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 120px;
+    height: 60px;
+}
+
+.seccionestudios i {
+    margin-left: auto;
+}
+
+.negrita {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.rojo {
+    color:rgba(151, 6, 6, 0.801)
+}
+
+.rojobg {
+    background-color: red;
+}
+
+.azul {
+    background-color: rgb(17, 143, 226);
+}
+
+.verde {
+    background-color: rgb(52, 151, 52);
+}
+
+.lila {
+    background-color: rgb(101, 67, 133);
+}
+
+.separar_projectes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoprojectes {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.infoprojectes h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.infoprojectes p {
+    color:rgb(105, 101, 101);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.seleccionar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divtarjetas {
+
+}
+

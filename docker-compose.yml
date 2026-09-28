@@ -4,7 +4,7 @@ services:
   php:
     build:
       context: ./docker/php
-    container_name: mop31_php
+    container_name: m616_php
     restart: unless-stopped
     ports:
       - "8080:80"
@@ -14,12 +14,12 @@ services:
       - db
   db:
     image: mysql:8.0
-    container_name: mop31_db
+    container_name: m616_db
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: mop31
-      MYSQL_USER: mop31_user
-      MYSQL_PASSWORD: mop31_pass
+      MYSQL_DATABASE: m616
+      MYSQL_USER: m616_user
+      MYSQL_PASSWORD: m616_pass
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
@@ -28,7 +28,7 @@ services:
       
   adminer:
     image: adminer
-    container_name: mop31_adminer
+    container_name: m616_adminer
     restart: unless-stopped
     depends_on:
       - db
